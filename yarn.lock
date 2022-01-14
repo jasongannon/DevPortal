@@ -1427,16 +1427,16 @@
     require-from-string "^2.0.2"
     uri-js "^4.2.2"
 
-"@redocly/developer-portal@1.1.0-beta.73":
-  version "1.1.0-beta.73"
-  resolved "https://registry.yarnpkg.com/@redocly/developer-portal/-/developer-portal-1.1.0-beta.73.tgz#a86499ec6227e9fc6aaab66f024869c316b743c3"
-  integrity sha512-h2RUAl4lr50MtAiDipAm4hwc4yS0sw3FglMVmojZk/V8R6+4o/qCWEMtGvCANDdb5b/gDKBgREicNvjLh3vD1w==
+"@redocly/developer-portal@1.1.0-beta.77":
+  version "1.1.0-beta.77"
+  resolved "https://registry.yarnpkg.com/@redocly/developer-portal/-/developer-portal-1.1.0-beta.77.tgz#b59b6cb6653995eb558e23af2ecf3505b28dea44"
+  integrity sha512-qp5XsOvymN0GzMA9xYYzFWrn/ltbYyg1eRHyQjCLD3digPSfjG2vTr42CRFml0FEbf7gyNyBorBWupHmejDJGQ==
   dependencies:
     "@mdx-js/mdx" "0.19.0"
     "@mdx-js/tag" "0.20.3"
     "@redocly/gatsby-remark-images" "4.2.0"
-    "@redocly/openapi-core" "^1.0.0-beta.67"
-    "@redocly/reference-docs" "2.7.9"
+    "@redocly/openapi-core" "1.0.0-beta.67"
+    "@redocly/reference-docs" "2.9.1"
     babel-plugin-styled-components "^1.12.0"
     buffer "^6.0.3"
     chalk "^4.1.1"
@@ -1563,6 +1563,22 @@
     unist-util-select "^1.5.0"
     unist-util-visit-parents "^2.1.2"
 
+"@redocly/openapi-core@1.0.0-beta.67":
+  version "1.0.0-beta.67"
+  resolved "https://registry.yarnpkg.com/@redocly/openapi-core/-/openapi-core-1.0.0-beta.67.tgz#d2687319e28754b8908048f9dead5033c6473f64"
+  integrity sha512-xH9Dl4D2VbXh7qMv1x7oQPfE9FpQsSjjJCe8QzRBF6aiTQFcxCB9LG4msa3Ym5KQuGkCDMyQXuA5oPTtzDooRQ==
+  dependencies:
+    "@redocly/ajv" "^8.6.4"
+    "@types/node" "^14.11.8"
+    colorette "^1.2.0"
+    js-levenshtein "^1.1.6"
+    js-yaml "^4.1.0"
+    lodash.isequal "^4.5.0"
+    minimatch "^3.0.4"
+    node-fetch "^2.6.1"
+    pluralize "^8.0.0"
+    yaml-ast-parser "0.0.43"
+
 "@redocly/openapi-core@^1.0.0-beta.67":
   version "1.0.0-beta.69"
   resolved "https://registry.yarnpkg.com/@redocly/openapi-core/-/openapi-core-1.0.0-beta.69.tgz#56f6dca9e8825b5d5df5a3057ce6817d3d32bfdd"
@@ -1584,10 +1600,10 @@
   resolved "https://registry.yarnpkg.com/@redocly/react-dropdown-aria/-/react-dropdown-aria-2.0.12.tgz#2e3af2b1b8e9123487109400d6117f0d4a8445a6"
   integrity sha512-feQEZlyBvQsbT/fvpJ4jJ5OLGaUPpnskHYDsY8DGpPymN+HUeDQrqkBEbbKRwMKidFTI2cxk2kJNNTnvdS9jyw==
 
-"@redocly/reference-docs@2.7.9":
-  version "2.7.9"
-  resolved "https://registry.yarnpkg.com/@redocly/reference-docs/-/reference-docs-2.7.9.tgz#b91106f6f0d077c21108fddbb4ee1b04bbde4f81"
-  integrity sha512-Zmyc++3xBChDPUuCeBBkMwIJoB4DZ5r2wlXp5yxxmbmU5zZ2tSSKJOoU4cKouNOaZtjaROc1hIGy0IEiq0Qr9A==
+"@redocly/reference-docs@2.9.1":
+  version "2.9.1"
+  resolved "https://registry.yarnpkg.com/@redocly/reference-docs/-/reference-docs-2.9.1.tgz#eeb83f06bc49fdb19a86ef887c3f7df5dedad8ea"
+  integrity sha512-xDe4P/3Ko0uFtg9IaNoa7L3XffluDxNgpwj2Esn2AoGvyjWP3NgO18PvQEOu+9VHgjGZcmxfTuxLjmmeO97yYg==
   dependencies:
     "@redocly/openapi-core" "^1.0.0-beta.67"
     "@redocly/react-dropdown-aria" "2.0.12"
